@@ -14,7 +14,8 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         For i = 0 To 10
-            Console.Write(i & ", ")
+            Console.Write(i & ", x")
+            Console.Write(i & ", x")
 
             ListBox1.Items.Add(i)
         Next

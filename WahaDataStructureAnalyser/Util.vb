@@ -16,6 +16,7 @@
     ''' -----------------------------------------------------------------------------------
     Public Shared Function Left(ByVal stTarget As String, ByVal iLength As Integer) As String
         If iLength <= stTarget.Length Then
+            ''Return stTarget.Substring(0, iLength)
             Return stTarget.Substring(0, iLength)
         End If
 

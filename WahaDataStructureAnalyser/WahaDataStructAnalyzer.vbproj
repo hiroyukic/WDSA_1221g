@@ -104,6 +104,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="CommonDirectory.vb" />
     <Compile Include="StructRecord.vb" />
     <Compile Include="SyntacticAnalysis.vb" />
